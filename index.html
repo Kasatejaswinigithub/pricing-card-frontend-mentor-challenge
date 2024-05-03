@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing Card</title>
+  <style>
+button{
+    background-color:greenyellow;
+    width:140px;
+    height:30px;
+    border-radius:3px;
+    color:white;
+    border:1px solid greenyellow;
+}
+#card
+{
+    width:700px;
+    height:550px;
+    padding:100px;
+    background-color:aliceblue;
+    box-shadow:2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius:5px;
+}
+#top-section
+{
+width:500px;
+padding-left:20px;
+background-color:white;
+border:1px solid white;
+}
+h2{
+    color:#2EBFBD;
+    margin-bottom:15px;
+}
+.h{
+    color:rgb(163, 234, 20);
+    margin-bottom:3px;
+    margin-top:4px;
+}
+#bottom-left
+{
+    background-color:#2EBFBD;
+    border:1px solid #2EBFBD;
+    width:300px;
+    padding-left:20px;
+
+
+}
+#bottom-right
+{
+    background-color:turquoise;
+    width:300px;
+    border:1px solid turquoise;
+    padding-right:20px;
+
+
+}
+.top-p{
+    background-color:white;
+}
+#bottom{
+    display:flex;
+    width:520px;
+    padding:0px;
+    color:white;
+}
+.common{
+    display:flex;
+    margin-top:5px;
+}
+.dollar{
+    font-size:20px;
+}
+.month{
+    font-size:14px;
+    position:relative;
+    opacity:0.8rem;
+    top:2px;
+    margin-left:5px;
+}
+.top-p{
+    padding-left:6px;
+    color:#98a6bd;
+    
+}
+.bottom-h4{
+    text-align:center;
+}
+.bottom-left p{
+    font-size:12px;
+}
+ul{
+    list-style:none;
+    padding-top:0px;
+    padding-bottom:10px;
+}
+button:hover{
+    cursor:pointer;
+    background-color:#A9C42D;
+    border-radius:5px;
+}
+    </style>
+    <script>
+        function alertUser()
+        {
+            alert("Hey,you clicked the button");
+        }
+    </script>
+</head>
+<body>
+    <div id="card">
+        <div id="top-section">
+            <h2>Join our community</h2>
+            <h4 class="h">30-days,hassie-free money back guarantee</h4>
+        <p class="top-p">Gain access to our full library of tutorials along with expert code reviews.Perfect for any developers who are serious about honing their skills</p>
+        </div>
+    <div id="bottom">
+    <div id="bottom-left">
+        <h4 >Monthly subscription</h4>
+        <div class="common">
+            <div class="dollar">$29</div>
+            <div class="month">per month</div>
+        </div>
+        <p >Full access for less than $1 a day</p>
+        <center><button onclick="alertUser()">Sign Up</button></center>
+    </div>
+    <div id="bottom-right">
+<h4 class="bottom-h4">Why Us</h4>
+<ul>
+    <li>Tutorials by industry experts</li>
+    <li>peer & expert code review</li>
+    <li>Coding excercises</li>
+    <li>Access to our GitHub repos</li>
+    <li>community forum</li>
+    <li>Flashcard decks</li>
+    <li>New videos every week</li>
+</ul>
+    </div>
+</div>
+</div>
+</body>
+</html>
